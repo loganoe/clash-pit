@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cidvrasebqwm6"
+path="res://.godot/imported/clash_pixel.fnt-1209d1c91224f26faeca18d912d84b62.fontdata"
+
+[deps]
+
+source_file="res://ui/clash_pixel.fnt"
+dest_files=["res://.godot/imported/clash_pixel.fnt-1209d1c91224f26faeca18d912d84b62.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=1

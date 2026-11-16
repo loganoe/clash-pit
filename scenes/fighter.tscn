@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/fighter.gd" id="1_script"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_body"]
+radius = 19.0
+height = 54.0
+
+[node name="Fighter" type="CharacterBody2D"]
+collision_layer = 2
+motion_mode = 1
+script = ExtResource("1_script")
+
+[node name="Body" type="Sprite2D" parent="."]
+region_enabled = true
+
+[node name="WeaponPivot" type="Node2D" parent="."]
+
+[node name="Weapon" type="Sprite2D" parent="WeaponPivot"]
+centered = false
+region_enabled = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_body")
